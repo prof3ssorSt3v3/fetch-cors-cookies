@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Two</title>
+  </head>
+  <body>
+    <p><a href="./index.html">Back Home</a></p>
+    <p id="output"></p>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('output').textContent = document.cookie;
+      });
+    </script>
+  </body>
+</html>
